@@ -1,0 +1,19 @@
+﻿@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="site-container">
+    <div class="row">
+        <div class="col-md-3">
+            <div class="students-nav">
+                <a href="/Students/Scholarships">Стипендии и награди</a>
+                <a href="/Students/Dormitories">Общежития</a>
+            </div>
+        </div>
+        <div class="col-md-9">
+            <div>
+                @RenderBody()
+            </div>
+        </div>
+    </div>
+</div>
